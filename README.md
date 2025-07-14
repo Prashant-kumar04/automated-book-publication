@@ -67,3 +67,64 @@ Helps shape future writing interactions.
 Stores all versions with embeddings.
 
 Retrieve any version by similarity query.
+
+📝 Sequence of Steps
+ sequenceDiagram
+    participant U as User
+    participant P as Playwright
+    participant W as AI Writer
+    participant R as AI Reviewer
+    participant H as Human Editor
+    participant DB as ChromaDB
+
+    U->>P: Provide book URL
+    P->>P: Scrape and capture screenshot
+    P->>W: Send original text
+    W->>R: Submit rewritten draft
+    R->>H: Reviewed content
+    H->>DB: Save final version with feedback
+
+
+🚀 Setup Instructions
+# 1. Clone the repository
+$ git clone https://github.com/your-username/automated-book-publication.git
+$ cd automated-book-publication
+
+# 2. Create virtual environment
+$ python -m venv .venv
+$ source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+# 3. Install requirements
+$ pip install -r requirements.txt
+
+# 4. Create .env file (do not share this!)
+GEMINI_API_KEY=your_gemini_key
+OPENAI_API_KEY=your_openai_key
+
+# 5. Run main pipeline
+$ python main.py
+
+# 6. When prompted: open GUI to finalize
+$ python editor_gui/app.py
+
+💬 Customization Tips
+
+Replace rewrite_chapter logic with your own agent logic.
+
+Switch to ElevenLabs for voice API.
+
+Add GPT reward calibration via RLHF.
+
+Use LangChain instead of native OpenAI/Gemini calls (optional).
+
+🚫 Disclaimer
+
+This project is intended only for educational evaluation. You retain all rights to your code. No commercial usage involved by evaluators.
+
+🌟 Contributors
+
+👤 Prashant Kumar — Developer
+
+
+
+
