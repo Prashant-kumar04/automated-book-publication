@@ -1,0 +1,6 @@
+flask
+playwright
+pyttsx3
+chromadb
+google-generativeai
+openai

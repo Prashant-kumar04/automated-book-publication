@@ -1,0 +1,15 @@
+A broken link?  Don't worry, we can fix this!  The page "The Gates of Morning/Book 1/Chapter 1" appears to be missing. This is sometimes due to website changes or accidental deletion.
+
+Here's how to proceed:
+
+1. **Permalink Check:** If you encountered this link elsewhere, encourage the site's webmaster to use permalinks for stable URLs.
+
+2. **Wikisource Search:** Search Wikisource for "The Gates of Morning/Book 1/Chapter 1."  It may be misnamed or relocated.
+
+3. **Deletion Check:**  The page may have been deleted (often due to copyright). Check the deletion log for an archived version.
+
+4. **Contribute to Wikisource:** Add the text yourself! Consult the contribution guidelines.
+
+5. **Cache Purge:** If you recently added the page, try purging the server cache.
+
+If the problem persists, please let us know how we can improve this message.
