@@ -1,14 +1,13 @@
-
-.env
-
+# ── Python junk ─────────────────
 __pycache__/
-
 *.pyc
 
-*.log
+# ── Secrets & local data ───────
+.env
 
-.vscode/
+# ── VS Code / Jupyter artefacts ─
+.ipynb_checkpoints/
+tempCodeRunnerFile.py
 
-.idea/
-
-.DS_Store
+# ── Chroma local DB ─────────────
+.chromadb/
